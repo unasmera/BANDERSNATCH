@@ -4,16 +4,19 @@ Unable to fully wrap ones mind about its existance, one can yet find its traces 
 everything one does. It is almighty and yet has no power whatsoever. Take on the mission
 and you will surely stumble upon its controversies.
 Choose how you would like to proceed:
-A: Who am I?
-B: Start the mission!
+B: Who am I?
+D: Start the mission!
 
 \b:
 You are Player One
 A: Who is the decision maker?
-B: Start the mission!
+D: Start the mission!
 
 \c:
 ERROR 404
 Let's try that again.
 A: Who is the decision maker?
 B: Who am I?
+
+\d:
+Alright, let's roll.
