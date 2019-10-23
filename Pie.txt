@@ -1,0 +1,24 @@
+\red:
+You are now in the BANDERSNATCH. A never ending system of decisions.
+Nothing you say or do is of your own free will. Your fate has long been
+decided before you even thought about acting. There are people like you,
+who are aware of the situation, and then there are people who are not.
+Sleepwalkers unable to wake up if not for their own revelation.
+Your mission, if you take it, is to terminate the decision maker 
+The Sleepwalkers will do anything to stop you in doing so.
+Choose how you would like to proceed:
+A: Who is the decision maker
+B: Who Am I?
+C: I do not take the mission
+
+
+\blue:
+As you wake up in your bed, everything seems normal at first. Dark orange light is
+shimmering through your curtain covered window and sprinkles the matress with light yellow spots.
+You get rid of the far too tiny piece of fabric that you used as a blanket
+and roll over, off the grubby mattress and onto the concrete floor. Your head hurts
+as though an elefant tried to dance Cha-Cha inside of it and you can't remember
+how you got into your bed last night. Frantically you get up and start searching for
+the mug of cold coffee that you must have left somewhere here yesterday evening.
+A: Look on the construction you'd like to call desk
+B: Look in the toilett

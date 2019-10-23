@@ -1,0 +1,19 @@
+\a:
+The decision maker is here and yet is not. It is a construct, an illusion if you will.
+Unable to fully wrap ones mind about its existance, one can yet find its traces in
+everything one does. It is almighty and yet has no power whatsoever. Take on the mission
+and you will surely stumble upon its controversies.
+Choose how you would like to proceed:
+A: Who am I?
+B: Start the mission!
+
+\b:
+You are Player One
+A: Who is the decision maker?
+B: Start the mission!
+
+\c:
+ERROR 404
+Let's try that again.
+A: Who is the decision maker?
+B: Who am I?
