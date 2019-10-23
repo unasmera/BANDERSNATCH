@@ -1,3 +1,5 @@
+#Diese Funktion ermöglicht dir txt Dokumente die du in diesen Ordner legst als
+#Dictionary für die unteren Funktionen zu verwenden.
 def producedictionary (file):
     with open (file, "r") as t:
         x = t.read ()
@@ -9,13 +11,14 @@ def producedictionary (file):
         result[key] = inhalt
     return result
 
-#print ("You are sitting in front of the screen, reading a text. The letters are written in COURIER NEW and built a nice contrast to the black background. Today is a boring day. You stood up at the same time as usual, had a non remarkable breakfast and up until now you cannot recall having done anything actually productive. The text you are reading is about obvious stuff and also not very interesting. Fed up, you think about what to do next, as suddenly something unexpected happens.")
+#Das sind die Dictionaries in denen entweder der Text für die Funktionen steht
+#oder sie verweisen auf den Text in den jeweils abgelegten Dateien.
 Ang = {"yes":"good", "no":"Ready Player One?"}
 Nae = {"tabea":"Hello Tabea, Here's your first decision: would you like to take the red pill or the blue pill?"}
 Pie = producedictionary ("Pie.txt")
 I_Ad = producedictionary ("I_Ad.txt")
 
-
+#Das ist die Generische Funktion für die Antwortfunktionen.
 def generate (variable,prompt="",invalid=""):
     while True:
         x = input(prompt).lower()
@@ -26,19 +29,24 @@ def generate (variable,prompt="",invalid=""):
         else:
             print(invalid)
 
+#Der Spieler gibt an ob er bereit ist
 def Anfang ():
     print ("Ready Player One?")
     while "no" == generate (Ang,"","Try again"):
         pass
 
+#Der Spieler gibt seinen Namen ein
 def Name ():
     print ("Welcome to BANDERSNATCH")
     print ("Insert your name to play")
     generate (Nae,"","No, your real name.")
 
+#Der Spieler entscheidet sich für die Rote oder Blaue Pille und erhält den
+#jeweiligen Antworttext
 def Pille ():
     generate(Pie,"","Choose a pill")
 
+#A: Es wird erklärt wer der Spielemacher ist
 def I_A ():
     while "c" == generate(I_Ad,"",I_Ad["c"]):
         pass
