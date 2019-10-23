@@ -48,11 +48,10 @@ def Pille ():
 
 #A: Es wird erklärt wer der Spielemacher ist
 def I_A ():
+    
     while "d" != generate(I_Ad,"",I_Ad["c"]):
-        while "c" == generate(I_Ad,"",I_Ad["c"]):
-            pass
-        if "d" == generate(I_Ad,"",I_Ad["c"]):
-            break
+        pass
+
 
 
 
